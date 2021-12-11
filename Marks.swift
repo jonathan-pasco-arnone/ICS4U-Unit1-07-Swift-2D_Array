@@ -9,11 +9,13 @@
 
 import Foundation
 
+// This function generates the nex Gaussin number
 func generateGaussin() -> String {
     let randomNumber = Int.random(in: 50..<100)
     return String(randomNumber)
 }
 
+// This function merges the arrays
 func mergeArrays(arrayOfStudents: [String], arrayOfAssignments: [String]) -> [[String]] {
 
     var combinedArray: [[String]] = []
